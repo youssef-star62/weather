@@ -1,0 +1,95 @@
+
+
+<html>
+  <title> Weather App</title>
+    <head>
+      <link rel="stylesheet" href="./css/all.min.css">
+      <link rel="stylesheet" href="./css/bootstrap.min.css">
+      <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="parent vh-100 ">
+            <nav class="navbar container navbar-expand-lg bg-body-black p-5">
+                <div class="container-fluid">
+                  <div><a class="navbar-brand" href="#"><img src="photos/logo@2x (1).png" class="w-50 ms-5"></a></div>
+                  <div><p class="text-light me-5">Weather</p>
+                    <p class="text-light pppp" >tagline goes here</p>
+                </div>
+                <div class="collapse navbar-collapse  " id="navbarNav">
+                    <ul class="navbar-nav  ">
+                      <li class="me-3">
+                       <button class=" btn btnnavbar "><a class="nav-link nav1 active" aria-current="page" href="#">Home</a></button>
+                      </li>
+                      <li class="me-3">
+                        <button class="btn btnnavbar2 navvv "><a class="nav-link nav2" href="#">News</a></button>
+                      </li>
+                      <li class="me-3">
+                        <button class="btn btnnavbar2 " ><a class="nav-link nav3" href="#">Live cameras</a></button>
+                      </li>
+                      <li class="me-3">
+                        <button class="btn btnnavbar2"><a class="nav-link nav4" href="#">Photos</a></button> 
+                      </li>
+                      <li class="me-3">
+                        <button class="btn btnnavbar2"><a class="nav-link nav4" href="#">Contact</a></button> 
+                      </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="imgcontent w-100 p-1  ">
+                <div class=" search m-auto mt-5 "><input id="search" class="form-control" type="text" placeholder="Find your location...">
+                <input type="button" value="Find" id="submit" class="btn btn-primary "></div>
+                <div class="container w-75">
+                    <div class="container " >
+                        <div class="row">
+                            <div class="current  col-md-4">
+                                <div class="currentdate d-flex justify-content-between align-items-center w-100 "><p id="dayName" class="p-1 qqq " ></p>
+                                    <p class="p-1 qqq " id="date" ></p></div>
+                                <div class="location p-2"><p id="location"></p> </div>
+                                <div class="degree p-2"> <span id="degree" class="sssss fw-bold" ></span><span class="sssss fw-bold" > ℃ </span></div>
+                                <div class="icon p-2" id="icon"></div>
+                                <div class="status ps-4"><p id="status" ></p></div>
+                                <div class="ps-3 pb-4"> <span class="ms-2 aaaa"><img src="photos/icon-umberella.png" width="21" height="21">   20% </span> 
+                                    <span class="ms-2 aaaa" ><img src="photos/icon-wind.png" width="21" height="21">  18km/h</span>
+                                    <span class="ms-2 aaaa" ><img src="photos/icon-compass.png" width="21" height="21"> East</span>
+                                </div>
+                            </div>
+                            <div class=" next  col-md-4">
+                                <div class="firstday"><p id="nextDay" class="text-center p-2 pb-3"></p></div>
+                                <div class="icon2 text-center "id="iconnextday"></div>
+                                <div class="text-center mt-3" > <span id="nextdaydegree" class="sss fw-bold text-center"></span><span class="sss fw-bold" >℃</span></div>
+                                <div class="text-center " > <span id="nextdaydegreemini" class="ss fw-bold text-center"></span><span class="ss fw-bold" >℃</span></div>
+                                <div class="text-center mt-4 " ><p id="status2"></p ></div>
+                                </div>
+                                <div class=" nnext col-md-4">
+                                    <div class="nextday" ><p id="nextDay2" class="text-center p-2 pb-3 "></p></div>
+                                    <div class="icon2 text-center"id="iconnextday2" ></div>
+                                    <div class="text-center mt-3"  > <span id="nextdaydegree2" class="sss fw-bold text-center" ></span><span class="sss fw-bold" >℃</span></div>
+                                    <div class="text-center "  > <span id="nextdaydegreemini2" class="ss fw-bold text-center" ></span><span class="ss fw-bold" >℃</span></div>
+                                    <div class="text-center mt-4 " ><p id="status3" ></p ></div>
+                                    </div>
+                            </div>
+                            </div>
+                    </div>  
+                    </div>
+                       
+                </div>
+            </div>
+            <div class="footer pt-3" >
+                <div class="container footer ">
+                    <div class="row" >
+                        <div class=" search  mt-5 "><input id="search2" class="form-control" type="text" placeholder="Enter your email to subscribe...">
+                            <input type="button" value="Subscribe" id="submit" class="btn btn-primary "></div>
+                          
+                    </div>
+                    <p class="copyrightpp" >Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>  
+            </div> 
+        </div>
+      
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/js.js"> </script>  
+
+
+        
+    </body>
+</html>

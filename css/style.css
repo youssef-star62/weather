@@ -1,0 +1,174 @@
+.parent
+{
+    background-color: #1e202b;
+}
+.pppp
+{
+font-size: 10px;
+}
+.navbar-collapse 
+{
+    margin-left: 320px;
+}
+.btnnavbar
+{
+    border:  2px solid #009ad8;
+    border-radius:15px;
+    padding-top: 2px;
+    padding-bottom:2px ;
+}
+.btnnavbar2
+{
+    border:  2px solid #009ad8;
+    border-radius:15px;
+    padding-top: 2px;
+    padding-bottom:2px ;
+}
+.nav-link
+{
+padding: 2px;
+}
+.nav1
+{
+    color: #009ad8 !important;
+}
+.nav2
+{
+    color: white !important;
+
+}
+.nav3
+{
+    color: white !important;
+}
+.nav4
+{
+    color: white !important;
+}
+.imgcontent
+{
+    background-image: url(banner.png);
+    height: 50%;
+
+}
+.form-control
+{
+    background-color:#1e202b ;
+    border: none;
+    padding-top:15px ;
+    padding-bottom: 15px;
+    border-radius: 20px;
+
+}
+::placeholder {
+    color: rgba(255,255,255,.5) !important; 
+}
+.search
+{
+    width: 67%;
+    margin-bottom: 200px;
+    position: relative;
+}
+input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding-left: 30px;
+    padding-top: 5px ;
+    padding-right: 30px;
+    padding-bottom: 5px ;
+    border-radius: 20px;
+}
+#search:focus
+{
+    background-color: #1e202b;
+    color: white;
+}
+.row
+{
+    margin-top: 60px;
+}
+.currentdate
+{
+    background-color: #2D303D;
+        color: white; 
+    width: 100%;
+}
+.current
+{
+    background-color: #282a35;
+    color: white;
+}
+.location
+{
+    color: #bfc1c8;
+}
+.sssss
+{
+    font-size: 70px;
+    
+}
+#status
+{
+    color: #009ad8;
+}
+.aaaa
+{
+    color: #bfc1c8;
+}
+.qqq
+{
+    color:#bfc1c8 ;
+}
+.firstday
+{
+    background-color:#222530;
+    color: #bfc1c8;
+}
+.next
+{
+    background-color:  #222530;
+    color: white;
+}
+.icon2
+{
+    margin-top: 40px;
+}
+.sss
+{
+    font-size: 30px;
+}
+.ss
+{
+    color: #bfc1c8;
+}
+#status2
+{
+    color: #009ad8;
+}
+.nnext
+{
+    background-color: #2D303D; 
+    color: white;
+} 
+.nextday
+{
+    background-color:#2D303D;
+    color: #bfc1c8; 
+}
+#status3
+{
+    color: #009ad8;
+}
+.footer
+{
+    background-color:#0b0c10 ;
+   
+}
+.copyrightpp
+{
+    color: white;
+    padding-bottom: 100px;
+}
+
